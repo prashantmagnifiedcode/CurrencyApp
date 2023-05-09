@@ -1,0 +1,41 @@
+node_modules/
+.expo/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# macOS
+.DS_Store
+
+# ./youtube
+# ./whatsapp
+# ./reducer
+# ./part
+# ./App1
+# ./App11
+# ./App444
+# ./App77
+# ./App777
+# Appsearch
+# Appwats
+# Appwhatup
+# AppYoutube
+# collection
+# collectioncomponent
+# e
+# form
+# h
+# Header
+# home
+# List
+# new
+# p
+# pixel
+# redu
+# visit
+
