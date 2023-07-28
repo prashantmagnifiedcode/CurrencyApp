@@ -1,18 +1,15 @@
 const initial={
-    FullName:"",
-    Email:"",
-    Phone:"",
+    isConnected:false
 }
 
 const UserData=(state=initial,action)=>{
     switch (action.type) {
-        case "userData":
+        case "Internet":
             const data= action.payload;
-            console.log("payload",data)
             return {
                 ...state,
-                "FullName":data.FullName,
-                "Email":data.email
+                isConnected:data.isconnected,
+                
             }
     
         default:

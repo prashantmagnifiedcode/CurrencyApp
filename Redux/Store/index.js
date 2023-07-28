@@ -1,4 +1,6 @@
 import {createStore} from 'redux'
-import rootReducer from '../Reducer/combiner'
-const store= createStore(rootReducer,window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
+import persistedReducer from '../Reducer/combiner'
+
+const store= createStore(persistedReducer)
+
 export default store;
